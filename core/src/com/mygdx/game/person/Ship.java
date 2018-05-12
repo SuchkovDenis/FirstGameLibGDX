@@ -6,13 +6,13 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 
-public class Hero {
+public class Ship {
     private Texture texture;
     public Vector2 position;
     private float speed;
     private float angle;
 
-    public Hero() {
+    public Ship() {
         texture = new Texture("ship.png");
         position = new Vector2(608, 328);
         speed = 300.0f;
